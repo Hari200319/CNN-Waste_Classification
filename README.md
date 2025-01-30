@@ -1,4 +1,4 @@
-# Week-1
+**Week-1**
 To develop a CNN model to classify images of plastic waste into different categories
 **Week 2**
 1. Model Architecture Setup:
