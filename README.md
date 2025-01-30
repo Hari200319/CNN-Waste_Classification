@@ -1,5 +1,23 @@
-**Week-1**
+
 To develop a CNN model to classify images of plastic waste into different categories
+
+**Week-1**
+Improvisations done:
+
+Data Inspection:
+-->Loaded images from the dataset, processed them into a consistent format (128x128 pixels), and created a DataFrame with image data and labels.
+-->Checked the dataset's shape to confirm that the data was loaded correctly.
+
+Data Insights & EDA:
+
+Label Distribution (Pie Chart): Visualized the distribution of labels in the dataset to understand class proportions.
+Label Frequency (Bar Plot): Generated a bar plot to show the frequency of each category, helping to identify any class imbalances.(organic and recyclable)
+Image Size Distribution (Histogram): Examined the distribution of image sizes, ensuring that all images are appropriately resized.
+Image Preview: Displayed random sample images to verify the quality and consistency of the data.
+
+-->Label Encoding
+
+-->Split the dataset into training and validation sets (80%/20%) to prepare for model development.
 
 **Week 2**
 1. Model Architecture Setup:
