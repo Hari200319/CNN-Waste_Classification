@@ -1,5 +1,6 @@
 **Week-1**
 To develop a CNN model to classify images of plastic waste into different categories
+
 **Week 2**
 1. Model Architecture Setup:
 The CNN model is built using a function called build_model(). The model consists of:
