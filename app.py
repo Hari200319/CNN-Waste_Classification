@@ -6,8 +6,17 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
 
+url = "https://drive.google.com/file/d/1z_ngAxR-_82N5UvT2vXwy6UL5ig7iqZN/view?usp=drive_link"
 
-model = load_model("waste_management_cnn.h5")  
+model_path = "waste_management_cnn.h5"
+
+
+if not os.path.exists(model_path):
+    gdown.download(url, model_path, quiet=False)
+
+
+model = load_model(model_path)
+
 
 
 class_labels = ["Organic", "Recyclable"]  
